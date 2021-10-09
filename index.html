@@ -1,4 +1,4 @@
-<html lang="en">
+<html>
 <head>
     <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,7 +15,7 @@
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<link rel="stylesheet" type="text/css" href="style.css">
+
  
 </head>
 
@@ -35,7 +35,7 @@
 	<ul class="nav navbar-nav">
 		<li><a href="#cl"/a>Campus Life</a></li>
 		<li><a href="#a">Achievements</a></li>
-		<li><a href="">What's new</a></li>
+		<li><a href="#wn">What's new</a></li>
 		<li><a href="">Alumini</a></li>
 		<li><a href="#contact">Contact</a></li>
 		</ul>
@@ -46,7 +46,8 @@
     <section id="cl">
 	<div class="travel_maindiv">
 <img height="5000px" width="1000px" src="https://i.ytimg.com/vi/clqPPWDUe_U/maxresdefault.jpg" class="img-responsive">
-<h4><kbb>Quidditch 
+<section id="a">
+		<h4><kbb>Quidditch 
 Pitch</kbb></h4>
 	<h5 class="text-sucess text-left text-capitalize">Lovely place</h5>
 	<p class="text-left">I absloutly love the Qudditch pitch. Pick up a broom and fly away. Tryout are usally in your 2nd year, but I think you can ask anytime to join!</p>
@@ -64,8 +65,7 @@ Pitch</kbb></h4>
 <h4><kbb>The Great hall</kbb></h4>
 	<h5 class="text-sucess text-left text-capitalize">Yummy food</h5>
 	<p class="text-left">The candles up high when we arrive are just amazing. Food is delicious, and thats where all the first years get sorted into there houses.</p>
-	</section>
-	<section id="a">
+		
 	<div class="bg-primary movie_head" data-toggle="collapse" data-target="#Quidditch captains">
 Quidditch Captains
 	<i class="fa fa-sort-desc"></i>
@@ -76,10 +76,10 @@ Quidditch Captains
 		
 	</div>
 		<div class="col-lg-9 col-md-9 col-sm-9 col-xs-12">
-		<h5 class="text-success text-left text-capitalize">All houses
+			<h5 class="text-success text-left text-capitalize">All houses</h5>
 			<p>Gryffindor:Oliver Wood,Slytherin:Marcus Flint, Hufflepuff:Cedric Diggory, Ravenclaw:Roger Davies</p>
-		</div>
-	</div>
+		</div>				
+
 </div>
 <div class="bg-primary movie_head" data-toggle="collapse" data-target="#HPCTH">
 Harry Potter Comes to Hogwarts
@@ -114,9 +114,29 @@ Dumbledore's New Warning
 	</div>
 	
 
-	</div>	
+	</div>
+	
 	</section>	
-	<section id="contact">
+	<div id="wn">
+		<h2>What's New</h2>
+	<li class="list-group-item-success col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+		<h4>New school 
+		annoucment</h4>
+		<img height="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Forbidden_Symbol_Transparent.svg/1200px-Forbidden_Symbol_Transparent.svg.png">
+		<p>The 3rd floor corridor is forbbiden to all students. I must warn you dangeruos things are inside. It will be locked and guarded, and I advise you not to go inside, infact I strongly suggest not to go in. Those who go in will die a painful death, so don't go in.
+		- Albus Dumbledore (Headmaster of Hogwarts) 
+		</p>
+		</li>
+		
+			<li class="list-group-item-warning col-lg-12 col-md-12 col-sm-12 col-xs-12 environment_li">
+		<h4>2 important notes from Professer McGonacall</h4>
+		<img src="data:image/jpeg;base64,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">
+		<p>You school supplies are most important, and you shall find them all at Diagon Alley(Leadenhall market). The list of school supplies shall be on your Hogwarts letter. You will need your supplies for the rest of the year.
+			Now my 2nd order of buiseness concerns some of our O.W.L exam takers, I will allow only those with Exceeds Expectaions or higher to continue to N.E.W.T in Transfiguration, in Herbology, Astronomy, Charms and Defense against the Dark Arts also have the same standards. In potions only Outstandings shall get you into N.E.W.T, however History of Magic will allow an Acepptable. You will be given your schedule and you shall head to your first lesson immediately. Have a Good  year at Hogwarts.
+		- Minerva McGonacall (Transfiguration Professer and Deputy Headmisstress )
+		</p>
+		</li>
+	</div>
 	<div class="container">
 		<div class="page-header col-lg-12 col-md-12 col-sm-12 col-xs-12" id="contactUs">
 		<h2 class="text-capitalize">Contact Us</h2>
@@ -141,7 +161,6 @@ Dumbledore's New Warning
 			</div>	
 		</div>
 		</div>
-	</section>
 	
 
 	</body>
